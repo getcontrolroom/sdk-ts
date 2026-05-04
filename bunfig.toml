@@ -1,0 +1,3 @@
+[install.scopes]
+"@cvm" = { token = "$CR_REGISTRY_TOKEN", url = "https://registry.cloverlabs.dev/" }
+"@cr" = { token = "$CR_REGISTRY_TOKEN", url = "https://registry.cloverlabs.dev/" }
