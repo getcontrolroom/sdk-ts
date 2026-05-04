@@ -1,6 +1,17 @@
 {
   "name": "@getcontrolroom/sdk-ts",
   "version": "0.1.0",
+  "description": "TypeScript SDK for the Control Room API",
+  "author": "Clover Labs <hello@getcontrolroom.com>",
+  "license": "MIT",
+  "homepage": "https://getcontrolroom.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getcontrolroom/sdk-ts"
+  },
+  "bugs": {
+    "url": "https://github.com/getcontrolroom/sdk-ts/issues"
+  },
   "type": "module",
   "exports": {
     ".": "./src/index.ts",
@@ -11,12 +22,12 @@
     "build": "bun build ./src/index.ts --outdir ./dist --target browser"
   },
   "dependencies": {
-    "@hey-api/client-fetch": "^0.9.0"
+    "@hey-api/client-fetch": "0.9.0"
   },
   "devDependencies": {
-    "@hey-api/openapi-ts": "^0.73.0",
-    "@types/bun": "latest",
-    "typescript": "^5"
+    "@hey-api/openapi-ts": "0.73.0",
+    "@types/bun": "1.2.13",
+    "typescript": "5.8.3"
   },
   "publishConfig": {
     "access": "public",
